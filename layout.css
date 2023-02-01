@@ -1,0 +1,54 @@
+*{
+    
+    margin:0px;
+}
+.container
+{
+    display:flex;
+    background-color: rgb(30, 255, 0);
+    justify-content:space-around;
+}
+.container h1
+{
+    
+    background-color:rgb(227, 252, 0);
+    justify-content:space-evenly;
+    text-align: center;
+}
+.list
+{   
+    display:flex;
+    list-style-type:none;
+    text-decoration: none;
+}
+.list li a 
+{  
+    list-style-type:none;
+    text-decoration: none;
+}
+.list li :hover
+{ 
+    background-color: rgb(205, 255, 247);
+
+}
+.list li 
+{   justify-content: space-evenly;
+    margin:15px;
+}
+.mainclass
+{  
+    background:rgb(112, 187, 216);
+}
+.mainclass h2
+{   margin:0px;
+    text-align: center;
+    text-decoration:none;
+}
+.arti 
+{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top:0px;
+
+}
